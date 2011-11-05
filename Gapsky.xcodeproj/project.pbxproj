@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDADFFA1464BB27005F4626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDADFF91464BB27005F4626 /* UIKit.framework */; };
+		FBDADFFC1464BB27005F4626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDADFFB1464BB27005F4626 /* Foundation.framework */; };
+		FBDADFFE1464BB27005F4626 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDADFFD1464BB27005F4626 /* CoreGraphics.framework */; };
+		FBDAE0041464BB27005F4626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE0021464BB27005F4626 /* InfoPlist.strings */; };
+		FBDAE0061464BB27005F4626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDAE0051464BB27005F4626 /* main.m */; };
+		FBDAE00A1464BB27005F4626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDAE0091464BB27005F4626 /* AppDelegate.m */; };
+		FBDAE00D1464BB27005F4626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDAE00C1464BB27005F4626 /* ViewController.m */; };
+		FBDAE0101464BB27005F4626 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE00E1464BB27005F4626 /* ViewController_iPhone.xib */; };
+		FBDAE0131464BB27005F4626 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE0111464BB27005F4626 /* ViewController_iPad.xib */; };
+		FBDAE01B1464BB27005F4626 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDAE01A1464BB27005F4626 /* SenTestingKit.framework */; };
+		FBDAE01C1464BB27005F4626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDADFF91464BB27005F4626 /* UIKit.framework */; };
+		FBDAE01D1464BB27005F4626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDADFFB1464BB27005F4626 /* Foundation.framework */; };
+		FBDAE0251464BB27005F4626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE0231464BB27005F4626 /* InfoPlist.strings */; };
+		FBDAE0281464BB27005F4626 /* GapskyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDAE0271464BB27005F4626 /* GapskyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDAE01E1464BB27005F4626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDADFEC1464BB27005F4626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDADFF41464BB27005F4626;
+			remoteInfo = Gapsky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBDADFF51464BB27005F4626 /* Gapsky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gapsky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDADFF91464BB27005F4626 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBDADFFB1464BB27005F4626 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBDADFFD1464BB27005F4626 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBDAE0011464BB27005F4626 /* Gapsky-Info.plist */ = {isa = PBXFileReference; path = "Gapsky-Info.plist"; sourceTree = "<group>"; };
+		FBDAE0031464BB27005F4626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBDAE0051464BB27005F4626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBDAE0071464BB27005F4626 /* Gapsky-Prefix.pch */ = {isa = PBXFileReference; path = "Gapsky-Prefix.pch"; sourceTree = "<group>"; };
+		FBDAE0081464BB27005F4626 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBDAE0091464BB27005F4626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBDAE00B1464BB27005F4626 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FBDAE00C1464BB27005F4626 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBDAE00F1464BB27005F4626 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FBDAE0121464BB27005F4626 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FBDAE0191464BB27005F4626 /* GapskyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapskyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDAE01A1464BB27005F4626 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBDAE0221464BB27005F4626 /* GapskyTests-Info.plist */ = {isa = PBXFileReference; path = "GapskyTests-Info.plist"; sourceTree = "<group>"; };
+		FBDAE0241464BB27005F4626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBDAE0261464BB27005F4626 /* GapskyTests.h */ = {isa = PBXFileReference; path = GapskyTests.h; sourceTree = "<group>"; };
+		FBDAE0271464BB27005F4626 /* GapskyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapskyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDADFF21464BB27005F4626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDADFFA1464BB27005F4626 /* UIKit.framework in Frameworks */,
+				FBDADFFC1464BB27005F4626 /* Foundation.framework in Frameworks */,
+				FBDADFFE1464BB27005F4626 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDAE0151464BB27005F4626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAE01B1464BB27005F4626 /* SenTestingKit.framework in Frameworks */,
+				FBDAE01C1464BB27005F4626 /* UIKit.framework in Frameworks */,
+				FBDAE01D1464BB27005F4626 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDADFEA1464BB27005F4626 = {
+			isa = PBXGroup;
+			children = (
+				FBDADFFF1464BB27005F4626 /* Gapsky */,
+				FBDAE0201464BB27005F4626 /* GapskyTests */,
+				FBDADFF81464BB27005F4626 /* Frameworks */,
+				FBDADFF61464BB27005F4626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDADFF61464BB27005F4626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDADFF51464BB27005F4626 /* Gapsky.app */,
+				FBDAE0191464BB27005F4626 /* GapskyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDADFF81464BB27005F4626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDADFF91464BB27005F4626 /* UIKit.framework */,
+				FBDADFFB1464BB27005F4626 /* Foundation.framework */,
+				FBDADFFD1464BB27005F4626 /* CoreGraphics.framework */,
+				FBDAE01A1464BB27005F4626 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDADFFF1464BB27005F4626 /* Gapsky */ = {
+			isa = PBXGroup;
+			children = (
+				FBDAE0081464BB27005F4626 /* AppDelegate.h */,
+				FBDAE0091464BB27005F4626 /* AppDelegate.m */,
+				FBDAE00B1464BB27005F4626 /* ViewController.h */,
+				FBDAE00C1464BB27005F4626 /* ViewController.m */,
+				FBDAE00E1464BB27005F4626 /* ViewController_iPhone.xib */,
+				FBDAE0111464BB27005F4626 /* ViewController_iPad.xib */,
+				FBDAE0001464BB27005F4626 /* Supporting Files */,
+			);
+			path = Gapsky;
+			sourceTree = "<group>";
+		};
+		FBDAE0001464BB27005F4626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBDAE0011464BB27005F4626 /* Gapsky-Info.plist */,
+				FBDAE0021464BB27005F4626 /* InfoPlist.strings */,
+				FBDAE0051464BB27005F4626 /* main.m */,
+				FBDAE0071464BB27005F4626 /* Gapsky-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBDAE0201464BB27005F4626 /* GapskyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDAE0261464BB27005F4626 /* GapskyTests.h */,
+				FBDAE0271464BB27005F4626 /* GapskyTests.m */,
+				FBDAE0211464BB27005F4626 /* Supporting Files */,
+			);
+			path = GapskyTests;
+			sourceTree = "<group>";
+		};
+		FBDAE0211464BB27005F4626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBDAE0221464BB27005F4626 /* GapskyTests-Info.plist */,
+				FBDAE0231464BB27005F4626 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDADFF41464BB27005F4626 /* Gapsky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDAE02B1464BB27005F4626 /* Build configuration list for PBXNativeTarget "Gapsky" */;
+			buildPhases = (
+				FBDADFF11464BB27005F4626 /* Sources */,
+				FBDADFF21464BB27005F4626 /* Frameworks */,
+				FBDADFF31464BB27005F4626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gapsky;
+			productName = Gapsky;
+			productReference = FBDADFF51464BB27005F4626 /* Gapsky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBDAE0181464BB27005F4626 /* GapskyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDAE02E1464BB27005F4626 /* Build configuration list for PBXNativeTarget "GapskyTests" */;
+			buildPhases = (
+				FBDAE0141464BB27005F4626 /* Sources */,
+				FBDAE0151464BB27005F4626 /* Frameworks */,
+				FBDAE0161464BB27005F4626 /* Resources */,
+				FBDAE0171464BB27005F4626 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDAE01F1464BB27005F4626 /* PBXTargetDependency */,
+			);
+			name = GapskyTests;
+			productName = GapskyTests;
+			productReference = FBDAE0191464BB27005F4626 /* GapskyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDADFEC1464BB27005F4626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FBDADFEF1464BB27005F4626 /* Build configuration list for PBXProject "Gapsky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBDADFEA1464BB27005F4626;
+			productRefGroup = FBDADFF61464BB27005F4626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDADFF41464BB27005F4626 /* Gapsky */,
+				FBDAE0181464BB27005F4626 /* GapskyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDADFF31464BB27005F4626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAE0041464BB27005F4626 /* InfoPlist.strings in Resources */,
+				FBDAE0101464BB27005F4626 /* ViewController_iPhone.xib in Resources */,
+				FBDAE0131464BB27005F4626 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDAE0161464BB27005F4626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAE0251464BB27005F4626 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBDAE0171464BB27005F4626 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDADFF11464BB27005F4626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAE0061464BB27005F4626 /* main.m in Sources */,
+				FBDAE00A1464BB27005F4626 /* AppDelegate.m in Sources */,
+				FBDAE00D1464BB27005F4626 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDAE0141464BB27005F4626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAE0281464BB27005F4626 /* GapskyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBDAE01F1464BB27005F4626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDADFF41464BB27005F4626 /* Gapsky */;
+			targetProxy = FBDAE01E1464BB27005F4626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBDAE0021464BB27005F4626 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDAE0031464BB27005F4626 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBDAE00E1464BB27005F4626 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDAE00F1464BB27005F4626 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FBDAE0111464BB27005F4626 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDAE0121464BB27005F4626 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		FBDAE0231464BB27005F4626 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDAE0241464BB27005F4626 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDAE0291464BB27005F4626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBDAE02A1464BB27005F4626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBDAE02C1464BB27005F4626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gapsky/Gapsky-Prefix.pch";
+				INFOPLIST_FILE = "Gapsky/Gapsky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBDAE02D1464BB27005F4626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gapsky/Gapsky-Prefix.pch";
+				INFOPLIST_FILE = "Gapsky/Gapsky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBDAE02F1464BB27005F4626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gapsky.app/Gapsky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gapsky/Gapsky-Prefix.pch";
+				INFOPLIST_FILE = "GapskyTests/GapskyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FBDAE0301464BB27005F4626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gapsky.app/Gapsky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gapsky/Gapsky-Prefix.pch";
+				INFOPLIST_FILE = "GapskyTests/GapskyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDADFEF1464BB27005F4626 /* Build configuration list for PBXProject "Gapsky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDAE0291464BB27005F4626 /* Debug */,
+				FBDAE02A1464BB27005F4626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDAE02B1464BB27005F4626 /* Build configuration list for PBXNativeTarget "Gapsky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDAE02C1464BB27005F4626 /* Debug */,
+				FBDAE02D1464BB27005F4626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBDAE02E1464BB27005F4626 /* Build configuration list for PBXNativeTarget "GapskyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDAE02F1464BB27005F4626 /* Debug */,
+				FBDAE0301464BB27005F4626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDADFEC1464BB27005F4626 /* Project object */;
+}
